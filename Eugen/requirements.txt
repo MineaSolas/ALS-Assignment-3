@@ -1,0 +1,10 @@
+kaggle
+jupyter
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+h5py
+scikit-learn
+torch
