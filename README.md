@@ -59,7 +59,8 @@ CFG = {
     },
     'features': {
         'use_params': True,
-        'use_stats': True # options: True or false
+        'use_stats': True,
+        'use_ohe_learners': True # options: True or false
     },
     'preprocessing': {
         'nan_handling': 'forward'

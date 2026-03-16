@@ -11,3 +11,9 @@ timestamp,experiment_name,model_type,tuning_method,best_params,local_median_nll
 2026-03-12 14:37:54,09_ridge_mmf4,ridge,mmf4,"{'params': True, 'stats': False}",grid,{'model__alpha': 50.0},6.2486224
 2026-03-12 14:38:23,10_ridge_pow2_halving,ridge,pow2,"{'params': True, 'stats': False}",halving,{'model__alpha': 50.0},6.0520034
 2026-03-16 16:31:04,baseline_ridge_scaled_v1,ridge,pow2,"{'params': True, 'stats': True}",grid,{'model__alpha': 1.0},4.940624
+2026-03-16 16:09:07,baseline_ridge_scaled_v1,ridge,pow2,"{'params': True, 'stats': True}",grid,{'model__alpha': 10.0},4.940549
+2026-03-16 16:15:14,baseline_ridge_scaled_v1,ridge,pow3,"{'params': True, 'stats': True}",grid,{'model__alpha': 1.0},4.9413767
+2026-03-16 16:52:17,sub11_ridge_pow3,ridge,pow3,"{'params': True, 'stats': True}",grid,{'model__alpha': 0.1},4.9430103
+2026-03-16 18:51:13,sub11_ridge_pow2_learners,ridge,pow2,"{'params': True, 'stats': True}",grid,{'model__alpha': 1.0},4.9292364
+2026-03-16 18:53:22,sub11_ridge_pow3_learners,ridge,pow3,"{'params': True, 'stats': True}",grid,{'model__alpha': 1.0},4.9314613
+2026-03-16 18:56:09,sub11_ridge_pow2_learners,ridge,pow2,"{'params': True, 'stats': True}",grid,{'model__alpha': 1.0},4.9291973
