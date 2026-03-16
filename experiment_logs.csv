@@ -1,0 +1,13 @@
+timestamp,experiment_name,model_type,tuning_method,best_params,local_median_nll
+2026-03-12 12:32:02,baseline_ridge_scaled_v1,ridge,grid,{'model__alpha': 500.0},6.0951176
+2026-03-12 14:22:39,01_ridge_pow2,ridge,pow2,"{'params': True, 'stats': False}",grid,{'model__alpha': 50.0},6.0519667
+2026-03-12 14:23:57,02_rf_pow2,rf,pow2,"{'params': True, 'stats': False}",grid,"{'model__max_depth': 10, 'model__n_estimators': 50}",5.6201363
+2026-03-12 14:27:11,03_hgb_pow2,hgb,pow2,"{'params': True, 'stats': False}",grid,"{'model__learning_rate': 0.1, 'model__max_depth': 5, 'model__max_iter': 100}",5.0406303
+2026-03-12 14:30:14,04_ridge_pow3,ridge,pow3,"{'params': True, 'stats': False}",grid,{'model__alpha': 50.0},6.230198
+2026-03-12 14:32:28,05_hgb_pow3,hgb,pow3,"{'params': True, 'stats': False}",grid,"{'model__learning_rate': 0.1, 'model__max_depth': 5, 'model__max_iter': 100}",5.5846033
+2026-03-12 14:33:19,06_hgb_stats_no_params,hgb,pow2,"{'params': False, 'stats': True}",grid,"{'model__learning_rate': 0.1, 'model__max_depth': 5, 'model__max_iter': 100}",4.747981
+2026-03-12 14:34:30,07_ridge_stats_and_params,ridge,pow2,"{'params': True, 'stats': True}",grid,{'model__alpha': 1.0},4.9406214
+2026-03-12 14:36:12,08_hgb_exp3,hgb,exp3,"{'params': True, 'stats': False}",grid,"{'model__learning_rate': 0.1, 'model__max_depth': 5, 'model__max_iter': 100}",5.273982
+2026-03-12 14:37:54,09_ridge_mmf4,ridge,mmf4,"{'params': True, 'stats': False}",grid,{'model__alpha': 50.0},6.2486224
+2026-03-12 14:38:23,10_ridge_pow2_halving,ridge,pow2,"{'params': True, 'stats': False}",halving,{'model__alpha': 50.0},6.0520034
+2026-03-16 16:31:04,baseline_ridge_scaled_v1,ridge,pow2,"{'params': True, 'stats': True}",grid,{'model__alpha': 1.0},4.940624
